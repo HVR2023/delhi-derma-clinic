@@ -1,3 +1,4 @@
+export const revalidate = 60;
 import PageBanner from "@/component/PageBanner";
 import ChoosePlan from "@/component/ChoosePlan";
 import TestimoniulSwiper from "@/component/TestimoniulSwiper";
@@ -42,4 +43,4 @@ function PricingTable() {
         </>
     )
 }
-export default PricingTable;
+export default PricingTable;

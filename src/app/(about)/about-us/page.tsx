@@ -1,3 +1,4 @@
+export const revalidate = 60;
 import BestDentist from "@/component/BestDentist"
 import ChoosePlan from "@/component/ChoosePlan"
 import Frequently from "@/component/Frequently"

@@ -1,4 +1,5 @@
 "use client"
+export const revalidate = 60;
 import Link from "next/link";
 import PageBanner from "@/component/PageBanner";
 import Footer from "@/layout/Footer";

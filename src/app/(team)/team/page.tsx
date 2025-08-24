@@ -1,3 +1,4 @@
+export const revalidate = 60;
 import Footer from "@/layout/Footer";
 import Header from "@/layout/Header";
 import BestDentist from "@/component/BestDentist";

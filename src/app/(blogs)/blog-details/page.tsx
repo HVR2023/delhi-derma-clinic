@@ -1,4 +1,5 @@
 "use client"
+export const revalidate = 60;
 import { IMAGES } from "@/constant/theme";
 import Footer from "@/layout/Footer";
 import Sidebar from "@/component/Sidebar";

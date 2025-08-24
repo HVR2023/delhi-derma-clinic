@@ -1,3 +1,4 @@
+export const revalidate = 60;
 // "use client"
 import Link from "next/link";
 import PageBanner from "@/component/PageBanner";
@@ -69,4 +70,4 @@ function Shop() {
         </>
     )
 }
-export default Shop;
+export default Shop;

@@ -1,4 +1,5 @@
 "use client"
+export const revalidate = 60;
 import Link from "next/link";
 import { useRef, useState } from "react";
 import { IMAGES } from "@/constant/theme";
