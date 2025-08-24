@@ -8,11 +8,6 @@ export async function POST(req: NextRequest) {
   }
   const path = req.nextUrl.searchParams.get('path') || '/';
   const tag  = req.nextUrl.searchParams.get('tag');
-
-  if (tag) {
-    revalidateTag(tag);
-  } else {
-    revalidatePath(path);
-  }
+  if (tag) revalidateTag(tag); else revalidatePath(path);
   return NextResponse.json({ revalidated: true, path, tag });
 }
