@@ -1,3 +1,4 @@
+export const revalidate = 60;
 
 import { IMAGES } from '@/constant/theme';
 import MainHeader from '@/layout/MainHeader'

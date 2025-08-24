@@ -1,3 +1,4 @@
+export const revalidate = 60;
 import Link from "next/link";
 import FlexSwiper from "@/component/FlexSwiper";
 import Frequently from "@/component/Frequently";
